@@ -38,7 +38,7 @@ class QueueWithArray {
   // isEmpty: check if the queue is empty
 
   isEmpty() {
-    return this.items.length === 0 ? true : false;
+    return this.items.length === 0;
   }
 }
 
