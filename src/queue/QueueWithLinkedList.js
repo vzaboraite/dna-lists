@@ -5,7 +5,7 @@ class QueueWithLinkedList {
     this.length = 0
   }
 
-  // front: retrieves the first value
+  // front: returns the first value
 
   front() {}
 

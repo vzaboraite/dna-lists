@@ -3,7 +3,7 @@ class StackWithArray {
     this.items = []
   }
 
-  // top: retrieves the value at the top of the stack
+  // top: returns the value at the top of the stack
 
   top() {}
 
