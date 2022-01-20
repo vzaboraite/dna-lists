@@ -1,24 +1,24 @@
 class SingleLinkedList {
   constructor() {
-    this.head = undefined
-    this.tail = undefined
-    this.length = 0
+    this.head = undefined;
+    this.tail = undefined;
+    this.length = 0;
   }
 
   // push: add a node to the tail of the list and return the list
 
   push(node) {
     if (!this.head) {
-      this.head = node
-      this.tail = this.head
+      this.head = node;
+      this.tail = this.head;
     } else {
-      this.tail.next = node
-      this.tail = node
+      this.tail.next = node;
+      this.tail = node;
     }
 
-    this.length++
+    this.length++;
 
-    return this
+    return this;
   }
 
   // pop: remove a node from the tail of the list and return the removed node
@@ -50,4 +50,4 @@ class SingleLinkedList {
   remove(index) {}
 }
 
-module.exports = SingleLinkedList
+module.exports = SingleLinkedList;
