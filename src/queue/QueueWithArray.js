@@ -3,7 +3,7 @@ class QueueWithArray {
     this.items = [];
   }
 
-  // front: retrieves the first value
+  // front: returns the first value
 
   front() {
     return this.items[0];
